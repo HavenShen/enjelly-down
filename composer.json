@@ -1,0 +1,20 @@
+{
+    "name": "havenshen/enjelly-down",
+    "description": "一个Markdown解析器,基于Laravel5.*以上版本插件。",
+    "type": "package",
+    "keywords": ["laravel", "markdown", "解析器"],
+    "homepage": "https://github.com/HavenShen/enjelly-down",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HavenShen",
+            "email": "havenshen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HavenShen\\EnjellyDown\\": "src/"
+        }
+    },
+    "require": {}
+}
