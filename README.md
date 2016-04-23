@@ -1,7 +1,10 @@
-# enjelly-down
-> 本版本基于[SegmentFault/HyperDown](https://github.com/SegmentFault/HyperDown)markdown解析器，为laravel封装了一个package。
+enjelly-down
 
-> laravel5.1.*以上版本可用
+[![Latest Stable Version](https://img.shields.io/packagist/v/HavenShen/enjelly-down.svg?style=flat-square)](https://packagist.org/packages/HavenShen/enjelly-down)
+[![Total Downloads](https://img.shields.io/packagist/dt/HavenShen/enjelly-down.svg?style=flat-square)](https://packagist.org/packages/HavenShen/enjelly-down)
+[![License](https://img.shields.io/packagist/l/HavenShen/enjelly-down.svg?style=flat-square)](https://packagist.org/packages/HavenShen/enjelly-down)
+
+> 本版本基于[SegmentFault/HyperDown](https://github.com/SegmentFault/HyperDown)markdown解析器，为laravel封装了一个package，laravel5.1.*以上版本可用.
 
 ## 安装
 
