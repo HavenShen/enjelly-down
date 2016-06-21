@@ -2,6 +2,7 @@
 
 namespace HavenShen\EnjellyDown;
 
+use HavenShen\EnjellyDown\Librarys\Parser;
 use HavenShen\EnjellyDown\Services\EnjellyDownServices;
 use Illuminate\Support\ServiceProvider;
 
@@ -27,7 +28,7 @@ class EnjellyDownProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('EnjellyDown', function($app){
-            return new EnjellyDownServices();
+            return new EnjellyDownServices(new Parser);
         });
     }
 }
